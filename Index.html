@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSIGHT CONSULTING | Consultoria Empresarial em Rio de Janeiro</title>
+    <meta name="description" content="INSIGHT CONSULTING - Atividades de consultoria em gestão empresarial no Rio de Janeiro. Estratégia, gestão e resultados para sua empresa.">
+   
+    <!-- Tailwind CSS for modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+   
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        h1, h2, h3 {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .hero-gradient {
+            background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), url('https://files.manuscdn.com/user_upload_by_module/session_file/310519663724242884/NRELVXZqIxPIHofa.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+    <!-- Header / Navigation -->
+    <header class="fixed w-full z-50 bg-white/90 backdrop-blur-sm shadow-sm">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <div class="bg-blue-900 text-white p-2 rounded-lg mr-3">
+                    <i class="fas fa-lightbulb text-2xl"></i>
+                </div>
+                <span class="text-2xl font-bold tracking-tight text-blue-900">INSIGHT <span class="text-slate-500 font-light">CONSULTING</span></span>
+            </div>
+            <nav class="hidden md:flex space-x-8 font-medium">
+                <a href="#inicio" class="hover:text-blue-700 transition">Início</a>
+                <a href="#sobre" class="hover:text-blue-700 transition">Sobre Nós</a>
+                <a href="#servicos" class="hover:text-blue-700 transition">Serviços</a>
+                <a href="#contato" class="hover:text-blue-700 transition">Contato</a>
+            </nav>
+            <a href="#contato" class="bg-blue-900 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-800 transition">Fale Conosco</a>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-gradient min-h-screen flex items-center pt-20">
+        <div class="container mx-auto px-6 text-white">
+            <div class="max-w-3xl">
+                <h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight">Transformando Visão em <span class="text-blue-400">Resultados</span></h1>
+                <p class="text-xl md:text-2xl mb-10 text-slate-300">Consultoria estratégica em gestão empresarial para impulsionar o crescimento e a eficiência do seu negócio.</p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#servicos" class="bg-blue-600 hover:bg-blue-500 text-white px-8 py-4 rounded-lg font-bold text-center transition">Nossos Serviços</a>
+                    <a href="#sobre" class="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/30 px-8 py-4 rounded-lg font-bold text-center transition">Conheça a Insight</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Stats Section -->
+    <section class="py-12 bg-blue-900 text-white">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div>
+                    <div class="text-4xl font-bold mb-2">11+</div>
+                    <div class="text-blue-300">Anos de Experiência</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-bold mb-2">100%</div>
+                    <div class="text-blue-300">Foco em Gestão</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-bold mb-2">RJ</div>
+                    <div class="text-blue-300">Sede no Centro</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-bold mb-2">PRO</div>
+                    <div class="text-blue-300">Soluções Customizadas</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="sobre" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center gap-16">
+                <div class="md:w-1/2">
+                    <h2 class="text-blue-900 text-sm font-bold uppercase tracking-widest mb-4">Sobre a Empresa</h2>
+                    <h3 class="text-4xl font-bold mb-6">INSIGHT CONSULTING CONSULTORIA EMPRESARIAL LTDA</h3>
+                    <p class="text-slate-600 text-lg mb-6 leading-relaxed">
+                        Fundada em 2015 no coração do Rio de Janeiro, a Insight Consulting nasceu com o propósito de oferecer clareza e direção para empresas que buscam excelência operacional e crescimento sustentável.
+                    </p>
+                    <p class="text-slate-600 text-lg mb-8 leading-relaxed">
+                        Atuamos com <strong>atividades de consultoria em gestão empresarial</strong>, focando em soluções que vão além do convencional para entregar valor real aos nossos clientes através de metodologias modernas e análise criteriosa.
+                    </p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-600 mt-1 mr-3"></i>
+                            <span class="font-medium">Análise de Processos</span>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-600 mt-1 mr-3"></i>
+                            <span class="font-medium">Planejamento Estratégico</span>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-600 mt-1 mr-3"></i>
+                            <span class="font-medium">Otimização de Resultados</span>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-600 mt-1 mr-3"></i>
+                            <span class="font-medium">Gestão Administrativa</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 bg-slate-100 p-8 rounded-2xl border border-slate-200 shadow-inner">
+                    <div class="space-y-6">
+                        <div class="bg-white p-6 rounded-xl shadow-sm">
+                            <h4 class="font-bold text-blue-900 mb-2">Nossa Missão</h4>
+                            <p class="text-slate-600">Prover insights estratégicos que transformam desafios complexos em oportunidades de crescimento para nossos parceiros.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl shadow-sm">
+                            <h4 class="font-bold text-blue-900 mb-2">Nossa Visão</h4>
+                            <p class="text-slate-600">Ser referência em consultoria de gestão no Rio de Janeiro, reconhecida pela precisão técnica e compromisso com resultados.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section id="servicos" class="py-24 bg-slate-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-blue-900 text-sm font-bold uppercase tracking-widest mb-4">O Que Fazemos</h2>
+                <h3 class="text-4xl font-bold mb-6">Nossas Áreas de Atuação</h3>
+                <p class="text-slate-600 text-lg">Oferecemos um portfólio completo de serviços em consultoria de gestão empresarial, exceto técnica específica, adaptados à realidade de cada negócio.</p>
+            </div>
+           
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 card-hover">
+                    <div class="w-14 h-14 bg-blue-100 text-blue-900 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-chart-line text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4">Gestão Empresarial</h4>
+                    <p class="text-slate-600 mb-6">Assessoria completa na organização e controle de processos internos para maximizar a produtividade.</p>
+                    <ul class="text-sm text-slate-500 space-y-2">
+                        <li><i class="fas fa-arrow-right text-blue-600 mr-2"></i>Reengenharia de Processos</li>
+                        <li><i class="fas fa-arrow-right text-blue-600 mr-2"></i>Organização Administrativa</li>
+                    </ul>
+                </div>
+                <!-- Service 2 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 card-hover">
+                    <div class="w-14 h-14 bg-blue-100 text-blue-900 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-chess text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4">Planejamento Estratégico</h4>
+                    <p class="text-slate-600 mb-6">Definição de metas e caminhos críticos para o sucesso do negócio a curto, médio e longo prazo.</p>
+                    <ul class="text-sm text-slate-500 space-y-2">
+                        <li><i class="fas fa-arrow-right text-blue-600 mr-2"></i>Análise de Mercado</li>
+                        <li><i class="fas fa-arrow-right text-blue-600 mr-2"></i>Plano de Negócios</li>
+                    </ul>
+                </div>
+                <!-- Service 3 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 card-hover">
+                    <div class="w-14 h-14 bg-blue-100 text-blue-900 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-hand-holding-dollar text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4">Assessoria em Gestão</h4>
+                    <p class="text-slate-600 mb-6">Orientação e assistência operacional contínua para manter a saúde do seu empreendimento.</p>
+                    <ul class="text-sm text-slate-500 space-y-2">
+                        <li><i class="fas fa-arrow-right text-blue-600 mr-2"></i>Apoio Administrativo</li>
+                        <li><i class="fas fa-arrow-right text-blue-600 mr-2"></i>Controle Operacional</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CTA Section -->
+    <section class="py-20 bg-blue-600">
+        <div class="container mx-auto px-6 text-center">
+            <h3 class="text-3xl md:text-4xl font-bold text-white mb-8">Pronto para elevar o nível da sua gestão?</h3>
+            <p class="text-blue-100 text-xl mb-10 max-w-2xl mx-auto">Nossa equipe está pronta para realizar um diagnóstico completo e propor as melhores soluções para sua empresa.</p>
+            <a href="#contato" class="bg-white text-blue-600 px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-50 transition">Solicite uma Consultoria</a>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contato" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row gap-16">
+                <div class="md:w-1/2">
+                    <h2 class="text-blue-900 text-sm font-bold uppercase tracking-widest mb-4">Contato</h2>
+                    <h3 class="text-4xl font-bold mb-8">Onde Estamos</h3>
+                   
+                    <div class="space-y-8">
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-blue-50 text-blue-600 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                                <i class="fas fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">Endereço</h4>
+                                <p class="text-slate-600">AV MARECHAL CAMARA, 160, SALA: 1536</p>
+                                <p class="text-slate-600">CENTRO, RIO DE JANEIRO - RJ</p>
+                                <p class="text-slate-600">CEP: 20.020-080</p>
+                            </div>
+                        </div>
+                       
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-blue-50 text-blue-600 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                                <i class="fas fa-id-card"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">Dados Fiscais</h4>
+                                <p class="text-slate-600">CNPJ: 22.053.741/0001-73</p>
+                                <p class="text-slate-600">INSIGHT CONSULTING CONSULTORIA EMPRESARIAL LTDA</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-blue-50 text-blue-600 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">E-mail</h4>
+                                <p class="text-slate-600">contato@insightconsulting.com.br</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="md:w-1/2">
+                    <form class="bg-slate-50 p-8 rounded-2xl border border-slate-200 shadow-sm">
+                        <div class="grid grid-cols-1 gap-6">
+                            <div>
+                                <label class="block text-sm font-semibold mb-2">Nome Completo</label>
+                                <input type="text" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition" placeholder="Seu nome">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold mb-2">E-mail Corporativo</label>
+                                <input type="email" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition" placeholder="seu@email.com">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold mb-2">Mensagem</label>
+                                <textarea rows="4" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition" placeholder="Como podemos ajudar sua empresa?"></textarea>
+                            </div>
+                            <button type="submit" class="w-full bg-blue-900 text-white py-4 rounded-lg font-bold hover:bg-blue-800 transition shadow-lg shadow-blue-900/20">Enviar Mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-12 border-t border-slate-800">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-8 md:mb-0">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-600 text-white p-1 rounded mr-2">
+                            <i class="fas fa-lightbulb text-sm"></i>
+                        </div>
+                        <span class="text-xl font-bold tracking-tight text-white">INSIGHT <span class="text-slate-500 font-light">CONSULTING</span></span>
+                    </div>
+                    <p class="text-sm">© 2026 INSIGHT CONSULTING CONSULTORIA EMPRESARIAL LTDA.<br>Todos os direitos reservados.</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="hover:text-white transition"><i class="fab fa-linkedin text-2xl"></i></a>
+                    <a href="#" class="hover:text-white transition"><i class="fab fa-instagram text-2xl"></i></a>
+                    <a href="#" class="hover:text-white transition"><i class="fab fa-whatsapp text-2xl"></i></a>
+                </div>
+            </div>
+            <div class="mt-12 pt-8 border-t border-slate-800 text-xs text-center">
+                <p>CNPJ 22.053.741/0001-73 | Atividades de consultoria em gestão empresarial | Rio de Janeiro, RJ</p>
+                <a href="politica-de-privacidade.html" class="btn-politica">
+    Política de Privacidade
+</a>
+
+<style>
+.btn-politica {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.btn-politica:hover {
+    background: #0056b3;
+}
+</style>
+            </div>
+        </div>
+    </footer>
+</body>
+                      </html>
